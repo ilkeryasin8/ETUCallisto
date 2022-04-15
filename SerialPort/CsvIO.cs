@@ -50,7 +50,29 @@ namespace Csv
             GPS2_longitude = double.Parse(list[15].Substring(1, list[15].Length - 1));
             GPS2_altitude = double.Parse(list[16].Substring(1, list[16].Length - 1));
         }
-
         
+        public int TakimNo => takimNo;
+        public int PaketNumarasi => paketNumarasi;
+        public string GondermeSaati => gondermeSaati;
+        public double Basinc1 => basinc1;
+        public double Basinc2 => basinc2;
+        public double Yukseklik1 => yukseklik1;
+        public double Yukseklik2 => yukseklik2;
+        public double IrtifaFarki => irtifaFarkı;
+        public double InisHizi => inisHizi;
+        public double Sicaklik => sicaklik;
+        public double PilGerilimi => pilGerilimi;
+        public double Gps1Latitude => GPS1_latitude;
+        public double Gps1Longitude => GPS1_longitude;
+        public double Gps1Altitude => GPS1_altitude;
+        public double Gps2Latitude => GPS2_latitude;
+        public double Gps2Longitude => GPS2_longitude;
+        public double Gps2Altitude => GPS2_altitude;
+        public int UyduStatus => uyduStatus;
+        public double Pitch => pitch;
+        public double Roll => roll;
+        public double Yaw => yaw;
+        public int DonusSayisi => donusSayisi;
+        public string VideoAktarimBilgisi => videoAktarimBilgisi;
     }
 }
